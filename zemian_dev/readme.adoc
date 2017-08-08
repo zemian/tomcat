@@ -1,0 +1,18 @@
+== https://bz.apache.org/bugzilla/show_bug.cgi?id=59901
+
+entry points refs:
+	org.apache.jasper.JspCompilationContext#getJspFile
+	
+import lines:
+	org.apache.jasper.compiler.ParserController#parseDirectives
+		line 235: org.apache.jasper.compiler.JspDocumentParser#parse
+		line 240: try (InputStreamReader inStreamReader = JspUtil.getReader(
+		
+		
+		
+		/WEB-INF/tags/helloWorld.tag
+		/WEB-INF/tags/helloWorld.tag
+		
+		
+		ParseController@2951 / JspServletWraper@2957 / JspServlet@2958
+		

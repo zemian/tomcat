@@ -1,0 +1,10 @@
+# Ignore any project build files
+target/
+tmp/
+
+# Ignore tomcat directory temp contents
+mytc*/logs/
+mytc*/temp/
+mytc*/work/
+mytc*/webapps/examples/
+mytc*/webapps/examples/
