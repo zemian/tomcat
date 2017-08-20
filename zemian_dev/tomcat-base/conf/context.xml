@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <WatchedResource>WEB-INF/web.xml</WatchedResource>
+    <WatchedResource>${catalina.base}/conf/web.xml</WatchedResource>
+    <!-- DataSource Link -->
+    <ResourceLink name="jdbc/employees"
+                  global="jdbc/employees"
+                  type="javax.sql.DataSource"/>
+
+</Context>

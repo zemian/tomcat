@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <!--
+    For IntelliJ IDE to work, this needs to be defined in
+    $CATALILNA_BASE/config/context.xml
+
+    <ResourceLink name="jdbc/employees"
+                  global="jdbc/employees"
+                  type="javax.sql.DataSource"/>
+                  -->
+</Context>
